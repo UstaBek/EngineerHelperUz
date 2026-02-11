@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "801369827992",
+    "project_id": "engineerhelperuz",
+    "storage_bucket": "engineerhelperuz.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801369827992:android:c9f0ccf50bc7c57bdffeed",
+        "android_client_info": {
+          "package_name": "uz.engineerempire.helper"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUsgxEQUqn0R5BZsJp9nWgp4ATpHpARgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
