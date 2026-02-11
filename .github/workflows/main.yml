@@ -1,0 +1,20 @@
+name: Build APK
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.10'
+      - name: Install Flet and Build APK
+        run: |
+          pip install flet
+          flet build apk --project "EngineerHelperUz" --org "uz.engineerempire.helper"
+      - name: Upload APK
+        uses: actions/upload-artifact@v2
+        with:
+          name: release-apk
+          path: build/apk/*.apk
